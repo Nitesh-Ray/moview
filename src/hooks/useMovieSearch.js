@@ -1,8 +1,7 @@
 // src/hooks/useMovieSearch.js
 import { useState, useEffect } from 'react';
 import { useDebounce } from './useDebounce';
-
-const API_KEY = 'c8ea232e'; // Replace with your key
+import { API_KEY } from '../config';
 
 export function useMovieSearch() {
   const [query, setQuery] = useState('');

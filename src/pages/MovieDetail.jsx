@@ -2,8 +2,8 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useFavouriteStore } from '../store/favouriteStore';
+import { API_KEY } from '../config';
 
-const API_KEY = 'c8ea232e'; // Replace with your key
 
 export default function MovieDetail() {
   const { movieId } = useParams();
