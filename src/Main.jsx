@@ -7,7 +7,7 @@ import App from "./App.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
-      <h1>Day 18 – Full Project: Movie Search App (API, Debounce, Routing, Favourites)</h1>
+      <h1></h1>
       <App />
     </BrowserRouter>
   </StrictMode>,
